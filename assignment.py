@@ -1,4 +1,4 @@
-#import
+#Import
 from webexteamssdk import WebexTeamsAPI;
 from webexteamssdk import ApiError;
 
@@ -91,17 +91,17 @@ while True:
     print("5: Exit")
 
     option = input("\nPlease select an option: ")
-    if option=="0": #option for test connection
+    if option=="0": #Option for test connection
         test_connection() 
-    elif option=="1": #option for display details
+    elif option=="1": #Option for displaying details
         details() 
-    elif option=="2": #option for display 5 rooms
+    elif option=="2": #Option for displaying 5 rooms
         displayRoom()
-    elif option=="3": #option for create room
+    elif option=="3": #Option for creating a room
         createRoom()
-    elif option=="4":
-        send_message()
-    elif option=="5":
+    elif option=="4": #Option for sending a message
+        send_message() 
+    elif option=="5": #Option for exiting the program
         print("Exiting the program. Goodbye!")
         break
     else:
